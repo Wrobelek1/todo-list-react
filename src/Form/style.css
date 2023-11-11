@@ -20,10 +20,12 @@
     background-color: teal;
     color: white;
     border: none;
+    transition: 0.5s;
 }
 
 .form__button:hover {
     background-color: rgb(1, 167, 167);
+    transition: 0.5s;
 }
 
 .form__button:active {
