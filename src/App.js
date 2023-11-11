@@ -21,6 +21,17 @@ function App() {
     setTasks(tasks => tasks.map(task => ({...task, done: true})))
   };
 
+  const addNewTask = (newTaskContent) => {
+    setTasks(tasks => [
+      ...tasks, 
+    {
+      content: newTaskContent,
+      done: false,
+      id: tasks.lenght ? tasks[tasks.lenght - 1].id + 1 : 1,
+    },
+  ]);
+  };
+
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone);
   };
@@ -43,7 +54,7 @@ function App() {
     <Header title="Lista zadań"/>
     <Section 
       title="Dodaj nowe zadanie" 
-      body={<Form />}
+      body={<Form addNewTask={addNewTask}/>}
     />
     
     <Section 
