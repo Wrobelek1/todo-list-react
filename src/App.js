@@ -13,7 +13,7 @@ function App() {
 
   const [hideDone, setHideDone] = useState(false);
   const [tasks, setTasks] = useState([
-      {id: 1, content: "przejsc na reacta", done: false},
+      {id: 1, content: "zrobic obiad", done: false},
       {id: 2, content: "zjesc obiad", done: true},
   ]);
 
@@ -27,7 +27,7 @@ function App() {
     {
       content: newTaskContent,
       done: false,
-      id: tasks.lenght ? tasks[tasks.lenght - 1].id + 1 : 1,
+      id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
     },
   ]);
   };
