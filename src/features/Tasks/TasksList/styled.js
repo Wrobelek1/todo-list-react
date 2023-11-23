@@ -36,8 +36,8 @@ export const Button = styled.button`
   height: 30px;
   padding: 0px;
 
-  ${({ $done }) =>
-    $done &&
+  ${({ $toggledone }) =>
+    $toggledone &&
     css`
       background-color: ${({theme}) => theme.color.forestGreen};
 
@@ -48,8 +48,8 @@ export const Button = styled.button`
         filter: brightness(140%);
       }
     `};
-  ${({ $remove }) =>
-    $remove &&
+  ${({ $deleteTask }) =>
+    $deleteTask &&
     css`
       background-color: red;
 
