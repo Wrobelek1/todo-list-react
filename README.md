@@ -1,8 +1,16 @@
 #Task list
-
-Description
-
-# Getting Started with Create React App
+##Demo:
+https://github.com/Wrobelek1/todo-list-react
+## Technologies adn features: 
+- HTML
+- Styled-components
+- FLEX
+- GRID
+- Media queries
+- Transforms, transitions
+- Javascript (EC6+)
+- React
+- Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
