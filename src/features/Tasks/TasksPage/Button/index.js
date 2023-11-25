@@ -1,9 +1,4 @@
-import styled from "styled-components";
-
-export const Wrapper = styled.div`
-  display: flex;
-  gap: 20px;
-`;
+import { styled } from "styled-components";
 
 export const Button = styled.button`
   background-color: white;
@@ -21,6 +16,6 @@ export const Button = styled.button`
     filter: brightness(110%);
   }
   &:disabled {
-    color: ${({theme}) => theme.color.silver}
+    color: ${({ theme }) => theme.color.silver};
   }
 `;
