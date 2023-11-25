@@ -1,6 +1,4 @@
-#Task list
-##Demo:
-https://github.com/Wrobelek1/todo-list-react
+# Task List in React.js
 ## Technologies adn features: 
 - HTML
 - Styled-components
