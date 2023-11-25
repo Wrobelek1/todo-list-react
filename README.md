@@ -1,7 +1,7 @@
 # Todo List
 ## Demo
 https://wrobelek1.github.io/todo-list-react/
-## Technologies adn features: 
+## Technologies and features: 
 - HTML
 - Styled-components
 - FLEX
